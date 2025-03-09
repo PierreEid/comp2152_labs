@@ -61,7 +61,9 @@ def monster_attacks(m_combat_strength, health_points):
         print("The monster has reduced your health to " + str(health_points))
     return health_points
 
-
+# Test
+print(__name__)
+print(dir())
 # Game
 # Define The number of lives for the Hero and Monster
 numLives = 10  # number of player's lives remaining
